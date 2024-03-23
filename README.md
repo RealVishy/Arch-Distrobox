@@ -10,11 +10,13 @@ To create and configure the distrobox, use the following specifications:
 [arch-box]
 image="quay.io/toolbx/arch-toolbox:latest"
 additional_packages="git base-devel gdb bottom kitty hyfetch bat eza fzf neovim fish ttf-jetbrains-mono-nerd zoxide"
+# Include any additional packages you require up above!
 home=/home/vishwas/arch-box
 replace=true
 ```
+Use the command `distrobox assemble create` to create the distrobox
 
-Ensure to import your `.bashrc`, `config.fish`, and `kitty.conf` and `paru.conf` files.
+Ensure to import your `.bashrc`, `config.fish`, and `kitty.conf` and `paru.conf` files. Alternatively, you may import your `.config` directory to transfer additional settings.
 
 ## Paru Installation
 
