@@ -14,7 +14,7 @@ home=/home/vishwas/arch-box
 replace=true
 ```
 
-Ensure to import your `.bashrc`, `config.fish`, and `kitty.conf` and 'paru.conf' files.
+Ensure to import your `.bashrc`, `config.fish`, and `kitty.conf` and `paru.conf` files.
 
 ## Paru Installation
 
