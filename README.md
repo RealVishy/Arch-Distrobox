@@ -9,9 +9,11 @@ To create and configure the distrobox, use the following specifications:
 ```bash
 [arch-box]
 image="quay.io/toolbx/arch-toolbox:latest"
+# The base image you'd like to use!
 additional_packages="git base-devel gdb bottom kitty hyfetch bat eza fzf neovim fish ttf-jetbrains-mono-nerd zoxide"
 # Include any additional packages you require up above!
 home=/home/vishwas/arch-box
+# Specifying a custom home dir for distrobox!
 replace=true
 ```
 Use the command `distrobox assemble create` to create the distrobox
